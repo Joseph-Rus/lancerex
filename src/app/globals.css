@@ -8,6 +8,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* CBU Colors */
+  --primary: #003366;    /* Navy Blue */
+  --secondary: #FFD700;  /* Gold */
+  --accent: #FFFFFF;     /* White */
+  --text: #333333;       /* Dark Gray */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,5 +26,30 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom utility classes */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-secondary {
+  border-color: var(--secondary);
 }
