@@ -1,0 +1,166 @@
+[debug] [2025-03-03T21:51:22.863Z] ----------------------------------------------------------------------
+[debug] [2025-03-03T21:51:22.866Z] Command:       C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-03-03T21:51:22.866Z] CLI Version:   13.32.0
+[debug] [2025-03-03T21:51:22.866Z] Platform:      win32
+[debug] [2025-03-03T21:51:22.867Z] Node Version:  v20.18.2
+[debug] [2025-03-03T21:51:22.867Z] Time:          Mon Mar 03 2025 13:51:22 GMT-0800 (Pacific Standard Time)
+[debug] [2025-03-03T21:51:22.867Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-03T21:51:23.124Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T21:51:23.125Z] > authorizing via signed-in user (josephrussell4st@gmail.com)
+[debug] [2025-03-03T21:51:23.125Z] [iam] checking project lancerexchane for permissions ["firebase.projects.get"]
+[debug] [2025-03-03T21:51:23.126Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:23.127Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:23.128Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane:testIamPermissions [none]
+[debug] [2025-03-03T21:51:23.128Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane:testIamPermissions x-goog-quota-user=projects/lancerexchane
+[debug] [2025-03-03T21:51:23.128Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-03T21:51:23.586Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane:testIamPermissions 200
+[debug] [2025-03-03T21:51:23.586Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-03T21:51:23.587Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:23.587Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:23.587Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane [none]
+[debug] [2025-03-03T21:51:23.999Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane 200
+[debug] [2025-03-03T21:51:24.000Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/lancerexchane {"projectNumber":"421507201263","projectId":"lancerexchane","lifecycleState":"ACTIVE","name":"LancerExchane","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-03T20:25:02.546603Z"}
+[info] 
+[info] === Serving from 'C:\Users\josep\Documents\projects\lancerexchange'...
+[info] 
+[debug] [2025-03-03T21:51:24.005Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:24.005Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:24.006Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane [none]
+[debug] [2025-03-03T21:51:24.829Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane 200
+[debug] [2025-03-03T21:51:24.830Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane {"projectId":"lancerexchane","projectNumber":"421507201263","displayName":"LancerExchane","name":"projects/lancerexchane","resources":{"hostingSite":"lancerexchane"},"state":"ACTIVE","etag":"1_6aaf6a90-4cba-4dac-bb95-695edfe356ed"}
+[debug] [2025-03-03T21:51:27.579Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:27.580Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:27.580Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites pageToken=&pageSize=10
+[debug] [2025-03-03T21:51:28.574Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites 200
+[debug] [2025-03-03T21:51:28.574Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites {"sites":[{"name":"projects/lancerexchane/sites/lancerexchane","defaultUrl":"https://lancerexchane.web.app","appId":"1:421507201263:web:995e88461dd17aac2b031a","type":"DEFAULT_SITE"}]}
+[debug] [2025-03-03T21:51:28.575Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:28.575Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:51:28.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:421507201263:web:995e88461dd17aac2b031a/config [none]
+[debug] [2025-03-03T21:51:28.994Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:421507201263:web:995e88461dd17aac2b031a/config 200
+[debug] [2025-03-03T21:51:28.994Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:421507201263:web:995e88461dd17aac2b031a/config {"projectId":"lancerexchane","appId":"1:421507201263:web:995e88461dd17aac2b031a","storageBucket":"lancerexchane.firebasestorage.app","apiKey":"AIzaSyBWt6v_tm41he2EcAPHq2gGiSDDTe8nWB8","authDomain":"lancerexchane.firebaseapp.com","messagingSenderId":"421507201263","measurementId":"G-MNZKEB10SQ"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-03-03T21:52:34.518Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-west1"
+      },
+      "site": "lancerexchane",
+      "rewrites": [
+        {
+          "source": "**",
+          "function": {
+            "functionId": "ssrlancerexchane",
+            "region": "us-west1",
+            "pinTag": true
+          }
+        }
+      ],
+      "redirects": [],
+      "headers": [
+        {
+          "source": "**/*.[jt]s",
+          "headers": [
+            {
+              "key": "Set-Cookie",
+              "value": "__FIREBASE_DEFAULTS__=eyJjb25maWciOnsicHJvamVjdElkIjoibGFuY2VyZXhjaGFuZSIsImFwcElkIjoiMTo0MjE1MDcyMDEyNjM6d2ViOjk5NWU4ODQ2MWRkMTdhYWMyYjAzMWEiLCJzdG9yYWdlQnVja2V0IjoibGFuY2VyZXhjaGFuZS5maXJlYmFzZXN0b3JhZ2UuYXBwIiwiYXBpS2V5IjoiQUl6YVN5Qld0NnZfdG00MWhlMkVjQVBIcTJnR2lTRERUZThuV0I4IiwiYXV0aERvbWFpbiI6ImxhbmNlcmV4Y2hhbmUuZmlyZWJhc2VhcHAuY29tIiwibWVzc2FnaW5nU2VuZGVySWQiOiI0MjE1MDcyMDEyNjMiLCJtZWFzdXJlbWVudElkIjoiRy1NTlpLRUIxMFNRIn0sIl9hdXRoVG9rZW5TeW5jVVJMIjoiL19fc2Vzc2lvbiJ9; SameSite=Strict; Expires=2027-01-27T08:32:34.518Z; Path=/;"
+            }
+          ]
+        }
+      ],
+      "cleanUrls": true,
+      "public": ".firebase\\lancerexchane\\hosting",
+      "webFramework": "next_ssr"
+    }
+  ],
+  "functions": [
+    {
+      "source": ".firebase\\lancerexchane\\functions",
+      "codebase": "firebase-frameworks-lancerexchane"
+    }
+  ]
+}
+[debug] [2025-03-03T21:52:34.523Z] defaultcredentials: writing to file C:\Users\josep\AppData\Roaming\firebase\josephrussell4st_gmail_com_application_default_credentials.json
+[debug] [2025-03-03T21:52:34.525Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:34.525Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:34.525Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites 
+[debug] [2025-03-03T21:52:34.547Z] Setting GAC to C:\Users\josep\AppData\Roaming\firebase\josephrussell4st_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\josep\\AppData\\Roaming\\firebase\\josephrussell4st_gmail_com_application_default_credentials.json"}}
+[debug] [2025-03-03T21:52:34.548Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:34.548Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:34.548Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/adminSdkConfig [none]
+[debug] [2025-03-03T21:52:35.274Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/adminSdkConfig 200
+[debug] [2025-03-03T21:52:35.274Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/adminSdkConfig {"projectId":"lancerexchane","storageBucket":"lancerexchane.firebasestorage.app"}
+[debug] [2025-03-03T21:52:35.505Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites 200
+[debug] [2025-03-03T21:52:35.506Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lancerexchane/sites {"sites":[{"name":"projects/lancerexchane/sites/lancerexchane","defaultUrl":"https://lancerexchane.web.app","appId":"1:421507201263:web:995e88461dd17aac2b031a","type":"DEFAULT_SITE"}]}
+[debug] [2025-03-03T21:52:35.506Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:35.506Z] Checked if tokens are valid: true, expires at: 1741042044991
+[debug] [2025-03-03T21:52:35.506Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/webApps/1:421507201263:web:995e88461dd17aac2b031a/config [none]
+[debug] [2025-03-03T21:52:35.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/webApps/1:421507201263:web:995e88461dd17aac2b031a/config 200
+[debug] [2025-03-03T21:52:35.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lancerexchane/webApps/1:421507201263:web:995e88461dd17aac2b031a/config {"projectId":"lancerexchane","appId":"1:421507201263:web:995e88461dd17aac2b031a","storageBucket":"lancerexchane.firebasestorage.app","apiKey":"AIzaSyBWt6v_tm41he2EcAPHq2gGiSDDTe8nWB8","authDomain":"lancerexchane.firebaseapp.com","messagingSenderId":"421507201263","measurementId":"G-MNZKEB10SQ"}
+[info] i  functions: Watching "C:\Users\josep\Documents\projects\lancerexchange\.firebase\lancerexchane\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\josep\\Documents\\projects\\lancerexchange\\.firebase\\lancerexchane\\functions\" for Cloud Functions..."}}
+[info] i  hosting[lancerexchane]: Serving hosting files from: .firebase\lancerexchane\hosting {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m.firebase\\lancerexchane\\hosting\u001b[22m"}}
+[info] +  hosting[lancerexchane]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-03-03T21:52:35.998Z] Validating nodejs source
+[debug] [2025-03-03T21:52:38.647Z] > [functions] package.json contents: {
+  "main": "server.js",
+  "dependencies": {
+    "firebase-frameworks": "^0.11.0",
+    "firebase-functions": "^6.0.1",
+    "firebase-admin": "^11.11.1"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
+[debug] [2025-03-03T21:52:38.647Z] Building nodejs source
+[debug] [2025-03-03T21:52:38.648Z] Failed to find version of module node: reached end of search path C:\Users\josep\Documents\projects\lancerexchange\.firebase\lancerexchane\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2025-03-03T21:52:38.652Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-03-03T21:52:38.663Z] Found firebase-functions binary at 'C:\Users\josep\Documents\projects\lancerexchange\.firebase\lancerexchane\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8083
+
+[debug] [2025-03-03T21:52:48.385Z] Got response from /__/functions.yaml {"endpoints":{"ssrlancerexchane":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["us-west1"],"labels":{},"httpsTrigger":{},"entryPoint":"ssrlancerexchane"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] +  functions: Loaded functions definitions from source: ssrlancerexchane. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ssrlancerexchane."}}
+[info] +  functions[us-west1-ssrlancerexchane]: http function initialized (http://localhost:5001/lancerexchane/us-west1/ssrlancerexchane). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/lancerexchane/us-west1/ssrlancerexchane)."}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET /next.svg HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET /next.svg HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET /_next/static/css/app/layout.css?v=1741038808727 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET /_next/static/css/app/layout.css?v=1741038808727 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET /_next/static/chunks/webpack.js?v=1741038808727 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET /_next/static/chunks/webpack.js?v=1741038808727 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET /_next/static/chunks/app-pages-internals.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET /_next/static/chunks/app-pages-internals.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:29 +0000] "GET /_next/static/chunks/app/page.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:29 +0000] \"GET /_next/static/chunks/app/page.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /vercel.svg HTTP/1.1" 200 128 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /vercel.svg HTTP/1.1\" 200 128 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /file.svg HTTP/1.1" 200 391 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /file.svg HTTP/1.1\" 200 391 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /window.svg HTTP/1.1" 200 385 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /window.svg HTTP/1.1\" 200 385 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /_next/static/media/93f479601ee12b01-s.p.woff2 HTTP/1.1" 200 31288 "http://localhost:5000/_next/static/css/app/layout.css?v=1741038808727" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /_next/static/media/93f479601ee12b01-s.p.woff2 HTTP/1.1\" 200 31288 \"http://localhost:5000/_next/static/css/app/layout.css?v=1741038808727\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /globe.svg HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /globe.svg HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /_next/static/media/569ce4b8f30dc480-s.p.woff2 HTTP/1.1" 200 28356 "http://localhost:5000/_next/static/css/app/layout.css?v=1741038808727" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /_next/static/media/569ce4b8f30dc480-s.p.woff2 HTTP/1.1\" 200 28356 \"http://localhost:5000/_next/static/css/app/layout.css?v=1741038808727\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:30 +0000] "GET /_next/static/chunks/main-app.js?v=1741038808727 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:30 +0000] \"GET /_next/static/chunks/main-app.js?v=1741038808727 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:31 +0000] "GET /_next/static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:31 +0000] \"GET /_next/static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:31 +0000] "GET /__nextjs_font/geist-latin.woff2 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:31 +0000] \"GET /__nextjs_font/geist-latin.woff2 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:31 +0000] "POST /__nextjs_original-stack-frames HTTP/1.1" 400 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:31 +0000] \"POST /__nextjs_original-stack-frames HTTP/1.1\" 400 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:31 +0000] "POST /__nextjs_original-stack-frames HTTP/1.1" 400 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:31 +0000] \"POST /__nextjs_original-stack-frames HTTP/1.1\" 400 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:53:36 +0000] "GET /__nextjs_font/geist-mono-latin.woff2 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:53:36 +0000] \"GET /__nextjs_font/geist-mono-latin.woff2 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /_next/static/webpack/ba26007d59cddf05.webpack.hot-update.json HTTP/1.1" 200 44 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /_next/static/webpack/ba26007d59cddf05.webpack.hot-update.json HTTP/1.1\" 200 44 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /_next/static/webpack/webpack.ba26007d59cddf05.hot-update.js HTTP/1.1" 200 839 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /_next/static/webpack/webpack.ba26007d59cddf05.hot-update.js HTTP/1.1\" 200 839 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /?_rsc=1oqwi HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /?_rsc=1oqwi HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /_next/static/webpack/2a10988dae1bf572.webpack.hot-update.json HTTP/1.1" 200 44 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /_next/static/webpack/2a10988dae1bf572.webpack.hot-update.json HTTP/1.1\" 200 44 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /_next/static/webpack/webpack.2a10988dae1bf572.hot-update.js HTTP/1.1" 200 839 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /_next/static/webpack/webpack.2a10988dae1bf572.hot-update.js HTTP/1.1\" 200 839 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
+[info] i  hosting: ::1 - - [03/Mar/2025:21:55:21 +0000] "GET /_next/static/css/app/layout.css?v=1741038921832 HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [03/Mar/2025:21:55:21 +0000] \"GET /_next/static/css/app/layout.css?v=1741038921832 HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0\""}}
